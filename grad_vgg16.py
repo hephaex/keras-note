@@ -1,5 +1,4 @@
-from keras.applications.vgg16 import (
-    VGG16, preprocess_input, decode_predictions)
+from keras.applications.vgg16 import (VGG16, preprocess_input, decode_predictions)
 from keras.preprocessing import image
 from keras.layers.core import Lambda
 from keras.models import Sequential
